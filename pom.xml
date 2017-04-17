@@ -1,0 +1,32 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>      <!--Define a versão do pom.xml-->
+
+  <groupId>autobiografia</groupId>        <!--Define a empresa/organização responsável pelo projeto-->
+  <artifactId>autobiografia-com-bootstrap</artifactId>  <!--Especifica o nome do projeto-->
+  <version>0.0.1-SNAPSHOT</version>       <!--Versão atual do projeto-->
+  <packaging>war</packaging>              <!--Define o tipo de empacotamento, neste caso war-->
+
+  <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </properties>
+  
+  <build>
+  	<plugins>
+  	<plugin>
+  		<groupId>org.apache.tomcat.maven</groupId>
+  		<artifactId>tomcat7-maven-plugin</artifactId>
+  		<version>2.2</version>
+  		<configuration>
+  			<port>9090</port>
+  		
+  		</configuration>
+  	</plugin>
+  	</plugins>
+  	
+  </build>
+
+</project>

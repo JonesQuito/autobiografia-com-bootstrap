@@ -1,7 +1,7 @@
 # lab-pw-2017-1
 
 Este projeto é uma atividade prática da disciplina de programação para web do curso de<br/>
-Sistemas de Informação UFG-INF. Consiste em usar bootstrap para melhorar a aparência da autobiografia produzida como prática 01<br/>
+Sistemas de Informação UFG-INF<br/>
 Orientação: Profº: Walison Moreira<br/>
 
 ## Autobiografia.
@@ -10,7 +10,7 @@ Orientação: Profº: Walison Moreira<br/>
 
 ### primeiramente faça o clone do projeto usando o comando abaixo no gitbashe.
 
-`git clone https://github.com/JonesQuito/autobiografia-com-bootstrap`
+`git clone https://github.com/JonesQuito/pw-pratica01`
 
 ### Rodar com o Tomcat.
 
@@ -18,7 +18,7 @@ Orientação: Profº: Walison Moreira<br/>
 
 ### Acesso via navegador
 
-`http://localhost:9090/autobiografia-com-bootstrap`
+`http://localhost:9090/autobiografia`
 
 No Linux, use `./mvnw` ao invés de apenas `mvnw`, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script **mvnw** com o comando `chmod +x mvnw`.
 

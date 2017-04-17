@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Apr/2017:01:17:18 -0300] "GET /autobiografia HTTP/1.1" 302 - http-bio-9090-exec-1 0
+127.0.0.1 - - [14/Apr/2017:01:17:18 -0300] "GET /autobiografia/ HTTP/1.1" 200 1176 http-bio-9090-exec-2 50
+127.0.0.1 - - [14/Apr/2017:01:17:18 -0300] "GET /autobiografia/estilos/estilo.css HTTP/1.1" 200 866 http-bio-9090-exec-3 111
+127.0.0.1 - - [14/Apr/2017:01:17:18 -0300] "GET /autobiografia/scripts/functions.js HTTP/1.1" 200 443 http-bio-9090-exec-4 108
+127.0.0.1 - - [14/Apr/2017:01:17:18 -0300] "GET /autobiografia/menino.jpg HTTP/1.1" 200 7705 http-bio-9090-exec-5 35
+127.0.0.1 - - [14/Apr/2017:01:17:19 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-8 0
+127.0.0.1 - - [14/Apr/2017:01:17:19 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-9 0

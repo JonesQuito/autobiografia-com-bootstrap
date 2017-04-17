@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body h1, h3{
+    text-align: center;            
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+#biografia{
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    position: relative;
+    border: 2px solid black;
+    margin: 15px auto%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+figure#myfigure{
+    position: relative;
+    margin: auto;
+    border: 8px solid white;
+    box-shadow: 2px 2px 4px blue;
+    width: 300px;
+    height:300px;
+}
+figure#myfigure img{
+    width: 100%;
+    height: 100%;
+}
+figure#myfigure figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+}
+figure#myfigure figcaption h3{
+    position: absolute;
+    top: 240px;
+    text-align: center;  
+}
+
+figure#myfigure figcaption:hover{
+    opacity: 1;
+}
+
+
+
