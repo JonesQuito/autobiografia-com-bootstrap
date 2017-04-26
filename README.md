@@ -14,7 +14,8 @@ Orientação: Profº: Walison Moreira<br/>
 
 ### Rodar com o Tomcat.
 
-`mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run`
+`mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run`  --> caso apresente erro, use o comando abaixo<br>
+`mvn tomcat7:run`<br>
 
 ### Acesso via navegador
 
